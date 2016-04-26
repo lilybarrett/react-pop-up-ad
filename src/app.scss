@@ -1,0 +1,32 @@
+/* Your styling here */
+$blue: #0d5ee7;
+$pink: #ff1d8e;
+$orange: #e7bd0d;
+
+.ad {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: $pink;
+  color: $orange;
+}
+
+.fa {
+  float: right;
+  margin: 5px;
+  color: $blue;
+}
+
+#submit-field {
+  background-color: $blue;
+  color: $pink;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px black;
+}
+
+#email-field {
+  background-color: $orange;
+  border: 2px solid $blue;
+}
